@@ -31,8 +31,8 @@ postgresql_database 'stashdb' do
     :username => 'postgres',
     :password => node['postgresql']['password']['postgres']
   )
-  template 'DEFAULT'
-  encoding 'DEFAULT'
+  template 'template0'
+  encoding 'UTF8'
   tablespace 'DEFAULT'
   connection_limit '-1'
   owner 'postgres'
