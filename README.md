@@ -11,3 +11,6 @@ Database:
  Name: stashdb
  Username: postgres
  Password: 
+
+Database tuning:
+ Change "config_pgtune" parameters in node.json. See https://github.com/hw-cookbooks/postgresql#config_pgtune
