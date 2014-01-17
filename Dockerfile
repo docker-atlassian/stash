@@ -25,4 +25,9 @@ RUN /install_cmds.sh
 
 # Start the service
 CMD ["sh", "/init.sh"]
+
+# Http Port
 EXPOSE 7990
+
+# SSH Port
+EXPOSE 7999
